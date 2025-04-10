@@ -17,7 +17,7 @@ const ServiceSection = () => {
 
       <div className="flex flex-wrap  mt-10 lg:mt-15   ">
         {services.map((service, index) => (
-          <div key={index} className="w-full  sm:1/2 lg:w-1/3 pt-2 px-10 flex flex-col items-center text-center">
+          <div key={index} className="w-full sm:1/2 lg:w-1/3 pt-2 px-10 flex flex-col items-center text-center serviceBox">
             <div
               className="flex h-18 w-18 p-2 bg-white/30 backdrop-blur-md 
             text-blue-700 justify-center items-center rounded-full border border-white/20 shadow-lg"

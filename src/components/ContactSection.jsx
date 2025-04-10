@@ -84,10 +84,8 @@ const ContactSection = () => {
             ></textarea>
             <div className="flex">
             <button className="w-52 h-12 px-4 bg-blue-500 hover:bg-blue-600 transition-all duration-500 shadow-xs text-white text-base font-semibold leading-6 btn rounded-lg">
-  Enviar Mensaje
-</button>
-
-
+              Enviar Mensaje
+            </button>
             </div>
           </div>
         </form>

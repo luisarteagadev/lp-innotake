@@ -16,4 +16,38 @@ html {
     clip-path: polygon(100% 0, 100% 45%, 0 100%, 0 50%);
   } */
 
-  
+.borderNav{
+  border-top: 5px solid #2196F3;
+  border-bottom: none;
+  border-image: linear-gradient(45deg, white, var(--color-blue-500), var(--color-blue-800)) 1;
+  box-shadow: 0px -1px 5px -1px black;
+}
+
+.parallaxBanner {
+  background-image: url('https://i.imgur.com/oEshrCg.jpeg');
+  background-attachment: fixed;
+}
+
+.parallaxServices{
+  background-image: url('https://i.imgur.com/Ze1OPfE.jpeg');
+  background-attachment: fixed;
+}
+
+.parallaxContact{
+  background-image: url('https://i.imgur.com/0aOcRAj.jpeg');
+  background-attachment: fixed;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.800);
+}
+.serviceBox{
+  transition: 0.5s;
+  cursor: pointer;
+}
+.serviceBox:hover{
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 1px 1px 3px -1px;
+  transition: 0.5s;
+}

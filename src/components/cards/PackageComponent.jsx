@@ -1,5 +1,6 @@
 import { icons } from "../../constants";
 import PropTypes from 'prop-types';
+import Modal from '../modals/Modal';
 
 const PackageComponent = ({ title, subtitle, content }) => {
   return (

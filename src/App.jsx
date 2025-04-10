@@ -10,13 +10,32 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
+      <section className="parallaxBanner">
+        <div className="max-w-7xl mx-auto px-6 content">
+          <HeroSection />
+        </div>
+      </section>
+      <section>
       <div className="max-w-7xl mx-auto px-6">
-        <HeroSection />
         <AboutSection></AboutSection>
-        <ServiceSection />
+        </div>
+      </section>
+      <section className="parallaxServices">
+        <div className="max-w-7xl mx-auto px-6 content">
+          <ServiceSection />
+        </div>
+      </section>
+      <section>
+      <div className="max-w-7xl mx-auto px-6">
         <PricingSection />
+        </div>
+      </section>
+      <section className="parallaxContact">
+        <div className="max-w-7xl mx-auto px-6 content">
         <ContactSection />
-      </div>
+        </div>
+      </section>
+      {/*</div>*/}
 
       <FooterSection></FooterSection>
           

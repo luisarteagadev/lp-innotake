@@ -83,19 +83,19 @@ export const testimonials = [
 ];
 export const packages=[
   {
-    title:'Paquete basico',
-    subtitle:'Pagina web profesional y economica',
+    title:'Paquete Base',
+    subtitle:'Landing page economica',
     content:'Ideal para emprendores y pequeñas empresas que necesitan una presencia online rapida y efectiva.'
   },
   {
-    title:'Paquete basico',
-    subtitle:'Pagina web profesional y economica',
-    content:'Ideal para emprendores y pequeñas empresas que necesitan una presencia online rapida y efectiva.'
+    title:'Paquete Normal',
+    subtitle:'Landing page con muchas mejores características que el plan base',
+    content:'Ideal para personas/mypes que se encuentran en crecimiento y necesitan una presencia más fuerte en linea con sus productos.'
   },
   {
-    title:'Paquete basico',
-    subtitle:'Pagina web profesional y economica',
-    content:'Ideal para emprendores y pequeñas empresas que necesitan una presencia online rapida y efectiva.'
+    title:'Paquete Personalizado',
+    subtitle:'Pagina web/aplicación avanzada, 100% personalizable con muchas mejores caracteríscas que los anteriores planes ',
+    content:'Ideal para empresas ya establecidas, que buscan un producto más personalizable. Para aquellas que buscan acelerar el crecimiento de su empresa. '
   }
 ]
 
